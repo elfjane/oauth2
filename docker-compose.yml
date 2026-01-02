@@ -3,7 +3,7 @@ services:
         build:
             context: ./
             dockerfile: Dockerfile
-        image: sail-8.2/app
+        image: sail-8.4/app
         ports:
             - '${APP_PORT:-3311}:80'
         environment:
