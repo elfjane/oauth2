@@ -31,8 +31,8 @@
         <form method="POST" action="{{ route('login') }}" class="space-y-6">
             @csrf
             <div>
-                <label for="email" class="block text-sm font-medium text-gray-400 mb-1">Email Address</label>
-                <input type="email" name="email" id="email" required
+                <label for="email" class="block text-sm font-medium text-gray-400 mb-1">Account</label>
+                <input type="text" name="email" id="email" required
                     class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition duration-200">
             </div>
 
